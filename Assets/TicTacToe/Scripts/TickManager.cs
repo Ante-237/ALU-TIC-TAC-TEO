@@ -9,6 +9,9 @@ using UnityEngine.UI;
 namespace tic_tac
 {
 
+    /// <summary>
+    /// enum for easy casting to integer for selection of strike type
+    /// </summary>
     public enum STRIKETYPE
     {
         VERTSTRIKELEFT,
@@ -21,6 +24,9 @@ namespace tic_tac
         CROSSTRIKELEFT
     };
 
+    /// <summary>
+    /// type of ticks to select with int casting
+    /// </summary>
     public enum TICK
     {
         CIRCLE,
@@ -28,6 +34,9 @@ namespace tic_tac
         EMPTY
     };
 
+    /// <summary>
+    ///  tyope of playtype to select to casting
+    /// </summary>
     public enum PLAYTIME
     {
         PLAYER,
