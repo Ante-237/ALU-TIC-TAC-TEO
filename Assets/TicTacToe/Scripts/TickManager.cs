@@ -177,7 +177,7 @@ namespace tic_tac
                 // call winner here x for ai, x for x player
                 if (AI)
                 {
-                    PlayText.text = "<color=green>AI Wins</color>";
+                    PlayText.text = "<color=red>AI Wins</color>";
                 }
                 else
                 {
